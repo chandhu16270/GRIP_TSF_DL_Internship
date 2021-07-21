@@ -8,7 +8,6 @@ dataset = pd.read_csv("StudyHoursVsScores.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
-
 # Fitting Simple linear regression to the training set
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
